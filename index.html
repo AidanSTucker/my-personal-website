@@ -1,11 +1,50 @@
+
+
 <!DOCTYPE html>
-<html lang="en">
-  <head> 
-    <link rel="stylesheet" href="style.css" />
-    <title>My Personal Website</title>
+<html>
+  <head>
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <header>
+      <h1>Welcome to my Website</h1>
+      <nav>
+        <ul>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#services">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about-me">
+        <h2>About Me</h2>
+        <p>Name: Aidan Tucker</p>
+        <p>Hi, my name is Aidan, I am starting the Software Engineering program may 15th, and I am most excited about being able to do school from home since I already work from home and this means I will never have to leave my house haha!</p>
+      </section>
+
+      <section id="services">
+        <h2>Skills</h2>
+        <ul>
+          <li>Digital Marketing</li>
+          <li>Nursing</li>
+          <li>Soon To Be <strong>Software Engineer!</strong></li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>What's Your Favorite Flavor Of Ice Cream?</h2>
+        <form>
+          <label for="Answer">Answer:</label>
+          <textarea id="Answer" name="Answer"></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+
     <script src="script.js"></script>
   </body>
 </html>
